@@ -26,4 +26,16 @@ var _ = Describe("babble", func() {
 			Expect(babbler.Babble()).To(Equal("hello☃hello"))
 		})
 	})
+
+	Describe("new babble", func(){
+		It("handles a basic configuration", func(){
+			babbler = NewBabbler()
+			Expect( len(babbler.Words) ).Should(Equal(babbler.Dictionary.GetListLength()))
+		})
+		It("accepts a custom dictionary config", func(){
+			babbler = NewBabblerWithConfig(DictionaryConfig{ MinLength: 2, MaxLength: 4})
+			Expect(len(babbler.Words)).Should(Equal(babbler.Dictionary.GetListLength()))
+		})
+
+	})
 })

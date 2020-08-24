@@ -20,17 +20,19 @@ type Babbler struct {
 }
 
 func NewBabbler() (b Babbler) {
-	b.Dictionary = NewDictionaryWithConfig(DefaultDictionaryConfig)
+	d := NewDictionaryWithConfig(DefaultDictionaryConfig)
+	b.Dictionary = d
 	b.Count = 2
 	b.Separator = "-"
-	b.Words = words
+	b.Words = d.GetWordList()
 	return
 }
 func NewBabblerWithConfig(config DictionaryConfig) (b Babbler) {
-	b.Dictionary = NewDictionaryWithConfig(config)
+	d := NewDictionaryWithConfig(config)
+	b.Dictionary = d
 	b.Count = 2
 	b.Separator = "-"
-	b.Words = words
+	b.Words = b.Dictionary.GetWordList()
 	return
 }
 

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70022b2f-2934-44b3-b06a-8b7b49c37744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/babble.go" beforeDir="false" afterPath="$PROJECT_DIR$/babble.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babble_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/babble_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +44,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestBabble in babble">
-    <configuration name="TestBabble in babble" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.gobench babble">
+    <configuration name="TestBabble in babble (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="babble" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -55,7 +56,7 @@
       <pattern value="^\QTestBabble\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetRandomWord in babble (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBabble in babble (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="babble" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -63,10 +64,10 @@
       <package value="babble" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetRandomWord\E$" />
+      <pattern value="^\QTestBabble\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetRandomWord in babble (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBabble in babble (5)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="babble" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -74,30 +75,10 @@
       <package value="babble" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetRandomWord\E$" />
+      <pattern value="^\QTestBabble\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetRandomWord in babble (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="babble" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="babble" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetRandomWord\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dictionary_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="babble" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/dictionary_test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test babble" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+    <configuration name="go test babble" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="babble" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -107,21 +88,29 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="gobench babble" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="babble" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Test.go test babble" />
-      <item itemvalue="Go Test.TestGetRandomWord in babble (1)" />
-      <item itemvalue="Go Test.TestGetRandomWord in babble (2)" />
-      <item itemvalue="Go Test.TestGetRandomWord in babble (3)" />
-      <item itemvalue="Go Test.dictionary_test.go" />
-      <item itemvalue="Go Test.TestBabble in babble" />
+      <item itemvalue="Go Test.TestBabble in babble (3)" />
+      <item itemvalue="Go Test.TestBabble in babble (4)" />
+      <item itemvalue="Go Test.TestBabble in babble (5)" />
+      <item itemvalue="Go Test.gobench babble" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBabble in babble" />
-        <item itemvalue="Go Test.dictionary_test.go" />
-        <item itemvalue="Go Test.TestGetRandomWord in babble (3)" />
-        <item itemvalue="Go Test.TestGetRandomWord in babble (2)" />
-        <item itemvalue="Go Test.TestGetRandomWord in babble (1)" />
+        <item itemvalue="Go Test.gobench babble" />
+        <item itemvalue="Go Test.go test babble" />
+        <item itemvalue="Go Test.TestBabble in babble (5)" />
+        <item itemvalue="Go Test.TestBabble in babble (4)" />
+        <item itemvalue="Go Test.TestBabble in babble (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -141,42 +130,46 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="748" y="410" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598235515225" />
+    <state x="902" y="430" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598243428306">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="902" y="430" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598243428306" />
     <state x="819" y="642" key="#xdebugger.evaluate" timestamp="1598239883870">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="819" y="642" key="#xdebugger.evaluate/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598239883870" />
-    <state width="2518" height="409" key="GridCell.Tab.0.bottom" timestamp="1598241727385">
+    <state width="2518" height="409" key="GridCell.Tab.0.bottom" timestamp="1598279845427">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598241727385" />
-    <state width="2518" height="409" key="GridCell.Tab.0.center" timestamp="1598241727384">
+    <state width="2518" height="409" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279845427" />
+    <state width="2518" height="409" key="GridCell.Tab.0.center" timestamp="1598279845425">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598241727384" />
-    <state width="2518" height="409" key="GridCell.Tab.0.left" timestamp="1598241727384">
+    <state width="2518" height="409" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279845425" />
+    <state width="2518" height="409" key="GridCell.Tab.0.left" timestamp="1598279845424">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598241727384" />
-    <state width="2518" height="409" key="GridCell.Tab.0.right" timestamp="1598241727385">
+    <state width="2518" height="409" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279845424" />
+    <state width="2518" height="409" key="GridCell.Tab.0.right" timestamp="1598279845426">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="409" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598241727385" />
-    <state width="2518" height="502" key="GridCell.Tab.1.bottom" timestamp="1598239999988">
+    <state width="2518" height="409" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279845426" />
+    <state width="2518" height="502" key="GridCell.Tab.1.bottom" timestamp="1598279258277">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="502" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598239999988" />
-    <state width="2518" height="502" key="GridCell.Tab.1.center" timestamp="1598239999987">
+    <state width="2518" height="502" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279258277" />
+    <state width="2518" height="502" key="GridCell.Tab.1.center" timestamp="1598279258276">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="502" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598239999987" />
-    <state width="2518" height="502" key="GridCell.Tab.1.left" timestamp="1598239999987">
+    <state width="2518" height="502" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279258276" />
+    <state width="2518" height="502" key="GridCell.Tab.1.left" timestamp="1598279258275">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="502" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598239999987" />
-    <state width="2518" height="502" key="GridCell.Tab.1.right" timestamp="1598239999988">
+    <state width="2518" height="502" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279258275" />
+    <state width="2518" height="502" key="GridCell.Tab.1.right" timestamp="1598279258276">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="502" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598239999988" />
+    <state width="2518" height="502" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.2560.1417/2560.23.2560.1417@0.23.2560.1417" timestamp="1598279258276" />
     <state x="1137" y="670" key="VCS.ChangelistChooser" timestamp="1598241078569">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
