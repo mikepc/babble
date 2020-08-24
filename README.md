@@ -72,7 +72,7 @@ func main() {
    c := babble.DictionaryConfig {
 				MinLength: 3,
 				MaxLength: 5,
-                Upcase: true,
+				Upcase: true,
 			}
 
   babbler := babble.NewBabblerWithConfig(c)
@@ -85,7 +85,7 @@ Downcase
   c = babble.DictionaryConfig {
 				MinLength: 3,
 				MaxLength: 5,
-                Downcase: true,
+				Downcase: true,
 			}
 
   babbler = babble.NewBabblerWithConfig(c)
@@ -109,7 +109,7 @@ Transform
   c = babble.DictionaryConfig {
 				MinLength: 3,
 				MaxLength: 5,
-                TransformWord: alternateCase,
+				TransformWord: alternateCase,
 			}
 
   babbler = babble.NewBabblerWithConfig(c)
