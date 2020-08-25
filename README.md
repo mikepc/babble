@@ -64,7 +64,6 @@ Upcase
 package your_app
 
 import (
-  babble2 "babble"
 "github.com/tjarratt/babble"
 )
 

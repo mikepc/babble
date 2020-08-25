@@ -1,7 +1,7 @@
 package babble_test
 
 import (
-	"babble"
+	"github.com/mikepc/babble"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"strings"
