@@ -30,3 +30,104 @@ func main() {
   return
 })
 ```
+Custom Usage
+----
+```go
+package your_app
+
+import (
+  "github.com/tjarratt/babble"
+)
+
+func main() {
+    c := babble.DictionaryConfig {
+				MinLength: 3,
+				MaxLength: 5,
+			}
+
+  babbler := babble.NewBabblerWithConfig(c)
+  babbler.Separator = "-"
+  println(babbler.Babble()) // excessive-yak-shaving (or some other phrase)
+
+  // optionally set your own separator
+  babbler.Separator = " "
+  println(babbler.Babble()) // "hello from nowhere" (or some other phrase)
+
+  // optionally set the number of words you want
+  babbler.Count = 1
+  println(babbler.Babble()) // antibiomicrobrial (or some other word)
+
+```
+Upcase
+----
+```go
+package your_app
+
+import (
+  babble2 "babble"
+"github.com/tjarratt/babble"
+)
+
+func main() {
+   c := babble.DictionaryConfig {
+				MinLength: 3,
+				MaxLength: 5,
+				Upcase: true,
+			}
+
+  babbler := babble.NewBabblerWithConfig(c)
+  babbler.Separator = "-"
+  println(babbler.Babble()) // EXCESSIVE-YAK-SHAVING (or some other phrase)
+```
+Downcase
+----
+```go
+  c = babble.DictionaryConfig {
+				MinLength: 3,
+				MaxLength: 5,
+				Downcase: true,
+			}
+
+  babbler = babble.NewBabblerWithConfig(c)
+  babbler.Separator = "-"
+  println(babbler.Babble()) // excessive-yak-shaving (or some other phrase)
+```
+Transform
+----
+```go
+  var alternateCase = func (s string)string {
+                    rs, upper := []rune(s), false
+                for i, r := range rs {
+                    if unicode.IsLetter(r) {
+                        if upper = !upper; upper {
+                            rs[i] = unicode.ToUpper(r)
+                        }
+                    }
+                }
+                return string(rs)
+  }  
+  c = babble.DictionaryConfig {
+				MinLength: 3,
+				MaxLength: 5,
+				TransformWord: alternateCase,
+			}
+
+  babbler = babble.NewBabblerWithConfig(c)
+  babbler.Separator = "-"
+  println(babbler.Babble()) // ExCeSsIvE-YaK-SlUrPiNg the transform is applied to each word individually during load
+```
+Custom Word List
+----
+```go
+customList = []string{ "luke", "leia", "han", "darth", "r2d2" } // C-3PO has been expressly excluded 
+ c = babble.DictionaryConfig {
+				MinLength: 3,
+				MaxLength: 5,
+				CustomWordList: customList,
+			}
+
+  babbler = babble.NewBabblerWithConfig(c)
+  babbler.Separator = "-"
+  println(babbler.Babble()) // luke-darth
+```
+
