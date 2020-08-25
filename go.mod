@@ -1,4 +1,4 @@
-module babble
+module github.com/mikepc/babble
 
 go 1.14
 
